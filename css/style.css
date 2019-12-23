@@ -13,12 +13,8 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
-.container {
-  /* height: 100vh; */
-}
-
 section {
-  padding: 20px;
+  padding: 40px 30px;
 }
 
 .community {
@@ -32,6 +28,11 @@ section {
 
 .community-subheader {
   color: var(--bright-yellow);
+  margin: 20px 0;
+}
+
+.community-text {
+  line-height: 1.8;
 }
 
 .subscription {
@@ -39,16 +40,51 @@ section {
   background-color: var(--cyan);
 }
 
+.subscription-price {
+  margin: 20px 0;
+}
+
+.twentynine {
+  font-size: 2.2rem;
+  margin-right: 10px;
+}
+
+.subscription-text {
+  margin: 15px 0 40px 0;
+}
+
+.per-month {
+  color: var(--cyan-light);
+}
+
 .btn {
   text-decoration: none;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
   display: block;
-  width: 80%;
+  width: 100%;
   padding: 20px 0;
+  border-radius: 10px;
   color: var(--light-gray);
   background-color: var(--bright-yellow);
+  margin: 20px 0 0 0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 1s;
+}
+
+.btn:hover,
+btn:focus {
+  background-color: var(--grayish-blue);
 }
 
 .why {
   color: var(--light-gray);
   background-color: var(--cyan-light);
+  line-height: 1.6;
 }
+
+.why-header {
+  margin-bottom: 20px;
+}
+
